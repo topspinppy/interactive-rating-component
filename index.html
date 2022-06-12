@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,9 +19,9 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <div class="container">
-      <div class="box box-flex" id="vote">
-        <img src="images/icon-star.svg" class="box__star-icon" alt="star" width="1" />
+    <section class="container">
+      <main class="box box-flex" id="vote">
+        <img src="images/icon-star.svg" class="box__star-icon" alt="star" />
         <h1>How did we do?</h1>
 
         <p>
@@ -38,18 +38,18 @@
         </div>
 
         <button class="btn-submit" onclick="handlesubmit()">SUBMIT</button>
-      </div>
+      </main>
 
-      <div class="box box-flex center box-confirm hide" id="confirm">
-        <img src="./images/illustration-thank-you.svg" alt="" class="box-confirm__confirm-icon" width="144px" height="96px">
+      <main class="box box-flex center box-confirm hide" id="confirm">
+        <img src="./images/illustration-thank-you.svg" alt="" class="box-confirm__confirm-icon">
         <div class="box-confirm__result">You selected <span id="rate"></span> out of 5</div>
         <h2>Thank you</h2>
         <p>
           We appreciate you taking the time to give a rating. If you ever need
           more support, don’t hesitate to get in touch!
         </p>
-      </div>
-    </div>
+      </main>
+    </section>
     <!-- Rating state end -->
   </body>
 </html>
