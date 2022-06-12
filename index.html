@@ -20,7 +20,7 @@
   <body>
     <!-- Rating state start -->
     <section class="container">
-      <main class="box box-flex" id="vote">
+      <div class="box box-flex" id="vote">
         <img src="images/icon-star.svg" class="box__star-icon" alt="star" />
         <h1>How did we do?</h1>
 
@@ -38,9 +38,9 @@
         </div>
 
         <button class="btn-submit" onclick="handlesubmit()">SUBMIT</button>
-      </main>
+      </div>
 
-      <main class="box box-flex center box-confirm hide" id="confirm">
+      <div class="box box-flex center box-confirm hide" id="confirm">
         <img src="./images/illustration-thank-you.svg" alt="" class="box-confirm__confirm-icon">
         <div class="box-confirm__result">You selected <span id="rate"></span> out of 5</div>
         <h2>Thank you</h2>
@@ -48,7 +48,7 @@
           We appreciate you taking the time to give a rating. If you ever need
           more support, don’t hesitate to get in touch!
         </p>
-      </main>
+      </div>
     </section>
     <!-- Rating state end -->
   </body>
